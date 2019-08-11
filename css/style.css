@@ -1,0 +1,173 @@
+.nav {
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  color: #372357;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0;
+}
+.nav li{
+  list-style:  none;
+  
+}
+.nav-item {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #372357;
+  font-weight: 800;
+}
+
+.nav-link{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #372357;
+  
+}
+form {
+  padding: 2%;
+}
+.jumbotron {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(204, 120, 243, 0.521)), url("../images/orchid.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 485px; 
+} 
+
+
+h1 { 
+  font-family: 'Lobster', cursive;
+  color: #372357;
+  font-size: 83px;
+}
+h2{
+  font-family: 'Lobster', cursive;
+  color: #372357;
+  font-size: 40px;
+  text-align: center;
+}
+.cardSection {
+  flex-direction: row;
+}
+
+.card{
+  text-align: center;
+  margin:20px;
+}
+h5 {
+  font-family: 'Lobster', cursive;
+  color: #372357;
+  font-size: 35px;
+  align-items: flex-start;
+  flex-grow: 2;
+
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #372357;
+}
+.btn {
+  background-color: #372357;
+  color: white;
+  border-color: #372357;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+
+}
+
+.btn:hover
+{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+ 
+td {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #372357;
+}
+.nameForm {
+  margin-bottom: 15px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+footer img {
+    width: 3%;}
+
+@media (max-width: 768px) {
+  .cardSection{
+    flex-direction: column;
+  }
+  button {
+    width: 134px;
+    height: 40px;}
+  button p {
+    font-size: 20px;
+  }  
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 21px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .card{
+    margin: auto 0;
+  }
+  td {
+    font-size: 16px;
+  }
+  .nav-link{
+    font-size: 16px;
+  }
+  .nav1 {
+    order: 1;
+  }
+  .nav2 {
+    order: 3;
+  }
+
+  .nav3 {
+    order: 2;
+  }
+  footer img {
+    width: 14%;
+    padding: 1%;
+   
+  }
+ 
+
+
+
+}   
